@@ -1,0 +1,120 @@
+{
+  "name": "Home Page",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Images/Carousel.tsx",
+      "preload": true,
+      "items": [
+        {
+          "type": "video",
+          "action": {},
+          "video": "https://assets.decocache.com/demo-linkedin/8e6fc51d-c24a-4cc2-82a1-c82f110604cf/Gravacao-de-Tela-2025-08-21-as-15.51.23-(1).mp4",
+          "alt": "Video",
+          "autoplay": true,
+          "poster": "https://assets.decocache.com/demo-linkedin/e03b7221-75cc-417c-8af3-93931a93c235/f861a8453e5e7e7296125c4c3b2f12906f13f41e.jpg",
+          "muted": true,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Content/Benefits.tsx",
+      "benefits": [
+        {
+          "text": "• Frete Grátis em compras a partir de R$ 50"
+        },
+        {
+          "text": "• Até R$ 200 de desconto na primeira compra"
+        },
+        {
+          "text": "• Parcelamento em até 12x sem juros"
+        },
+        {
+          "text": "• Até 15% de desconto à vista"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Images/SecondaryImageCarousel.tsx",
+      "images": [
+        {
+          "image": "https://assets.decocache.com/demo-linkedin/202e4c27-61e8-47bf-b490-9e54600c070c/c2d91fdeca1169db15d499a27652282f1bf85fb3.png",
+          "mobileImage": "https://assets.decocache.com/demo-linkedin/202e4c27-61e8-47bf-b490-9e54600c070c/c2d91fdeca1169db15d499a27652282f1bf85fb3.png",
+          "width": 1000,
+          "height": 461,
+          "alt": "Image 1"
+        },
+        {
+          "image": "https://assets.decocache.com/demo-linkedin/e03b7221-75cc-417c-8af3-93931a93c235/f861a8453e5e7e7296125c4c3b2f12906f13f41e.jpg",
+          "mobileImage": "https://assets.decocache.com/demo-linkedin/e03b7221-75cc-417c-8af3-93931a93c235/f861a8453e5e7e7296125c4c3b2f12906f13f41e.jpg",
+          "width": 1000,
+          "height": 461,
+          "alt": "Image 2"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "term": " ",
+            "sort": ""
+          }
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Images/ImageGrid.tsx",
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/demo-linkedin/b9a7bd3b-4eee-442b-a261-741e8f748fc4/5e1a3c5ba6b512f9ca24d6ae02bfdcac474a29f4.jpg",
+          "mobile": "https://assets.decocache.com/demo-linkedin/b9a7bd3b-4eee-442b-a261-741e8f748fc4/5e1a3c5ba6b512f9ca24d6ae02bfdcac474a29f4.jpg",
+          "alt": "IMG 1",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "action": {},
+          "src": "https://assets.decocache.com/demo-linkedin/b5bfae2f-f9fb-4b37-87c9-127eda21bce1/wrangler-video3.mp4",
+          "alt": "VIDEO 1",
+          "width": 1000,
+          "height": 1000,
+          "poster": "https://assets.decocache.com/demo-linkedin/e03b7221-75cc-417c-8af3-93931a93c235/f861a8453e5e7e7296125c4c3b2f12906f13f41e.jpg",
+          "autoplay": true,
+          "muted": true,
+          "loop": true
+        },
+        {
+          "desktop": "https://assets.decocache.com/demo-linkedin/6748a2ba-a1a7-49b9-ab2b-0d068c73ad1a/f1f01d5548c79854a34f4aa3055b237eff71a7b8.jpg",
+          "mobile": "https://assets.decocache.com/demo-linkedin/6748a2ba-a1a7-49b9-ab2b-0d068c73ad1a/f1f01d5548c79854a34f4aa3055b237eff71a7b8.jpg",
+          "alt": "IMAGE 2",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Newsletter/Newsletter.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Footer"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}
